@@ -1,0 +1,5 @@
+const path = require('path');
+
+module.export = {
+    config: path.resolve(_dirname, 'src', 'config', 'config.db.js')
+}
